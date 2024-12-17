@@ -45,6 +45,8 @@ export default function Home() {
 
   };
 
+  const navItems = ["Home", "About", "Products", "Solutions", "Vision", "Contacts"];
+
   useEffect(() => {
     // Scroll to top on page load/refresh
     window.scrollTo(0, 0);
@@ -97,7 +99,7 @@ export default function Home() {
   }, [navItems, sectionRefs]);
 
 
-  const navItems = ["Home", "About", "Products", "Solutions", "Vision", "Contacts"];
+  
 
   return (
     <div className={`flex flex-col justify-start w-fit min-h-screen lg:pl-0 ${isLoaded ? 'fade-in' : 'opacity-0'}`} >
