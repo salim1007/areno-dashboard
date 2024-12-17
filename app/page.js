@@ -94,7 +94,7 @@ export default function Home() {
         }
       });
     };
-  }, [[navItems, sectionRefs]]);
+  }, [navItems, sectionRefs]);
 
 
   const navItems = ["Home", "About", "Products", "Solutions", "Vision", "Contacts"];
