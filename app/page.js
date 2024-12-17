@@ -94,7 +94,7 @@ export default function Home() {
         }
       });
     };
-  }, []);
+  }, [[navItems, sectionRefs]]);
 
 
   const navItems = ["Home", "About", "Products", "Solutions", "Vision", "Contacts"];
@@ -312,7 +312,7 @@ export default function Home() {
           </h2>
           <p className="mb-20 lg:mb-32 drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
             We go beyond building products — we craft transformative experiences that
-            empower industries and communities. Together, let's redefine the future of
+            empower industries and communities. Together, let&aposs redefine the future of
             technology.
           </p>
         </div>
