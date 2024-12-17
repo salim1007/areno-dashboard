@@ -15,7 +15,7 @@ module.exports = {
         'slow-bounce': {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-10px)' },
-        }
+        },
       },
       animation: {
         'slow-bounce': 'slow-bounce 2s ease-in-out infinite' // Increased duration to 2s

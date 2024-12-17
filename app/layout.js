@@ -15,11 +15,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${poppins.variable} antialiased bg-[#324671]`}
-      >
-        {children}
-      </body>
+    <body className={`${poppins.variable} w-full h-screen`}>
+      <div className="fixed inset-0 bg-[url('/areno_hand_tech.jpg')] bg-cover bg-fixed bg-center -z-10"></div>
+      <div className="fixed inset-0 bg-black opacity-70 -z-10"></div>
+      {children}
+    </body>
     </html>
   );
 }
